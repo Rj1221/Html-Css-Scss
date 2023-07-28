@@ -72,7 +72,7 @@
   font-weight: 700;
   font-size: 13px;
 }
-.social-icons a {
+.social-icons li a {
   background-color: #eceeef;
   color: #818a91;
   font-size: 16px;
@@ -83,25 +83,23 @@
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-.social-icons a:hover, .social-icons a:active, .social-icons a:focus {
+.social-icons li a:hover, .social-icons li a:active, .social-icons li a:focus {
   background-color: #29aafe;
   color: #fff;
 }
-.social-icons a .facebook:hover {
-  background-color: #3b5998;
+.social-icons li a.facebook:hover {
+  background-color: red;
 }
-.social-icons a .twitter:hover {
-  background-color: #00aced;
+.social-icons li a.twitter:hover {
+  background-color: green;
 }
-.social-icons a .instagram:hover {
-  background-color: #dd4b39;
+.social-icons li a.instagram:hover {
+  background-color: hotpink;
 }
-.social-icons a .linkedin:hover {
-  background-color: #007bb6;
+.social-icons li a.linkedin:hover {
+  background-color: blue;
 }
 
 .social-icons.size-sm a {
